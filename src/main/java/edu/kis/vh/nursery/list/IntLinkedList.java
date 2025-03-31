@@ -1,6 +1,6 @@
 package edu.kis.vh.nursery.list;
 
-public class IntLinkedList {
+class IntLinkedList {
 
     private static final int DEFAULT_RETURN_VALUE = -1;
     private Node last;
