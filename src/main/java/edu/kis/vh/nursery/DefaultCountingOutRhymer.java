@@ -1,5 +1,17 @@
 package edu.kis.vh.nursery;
 
+/**
+ * Klasa reprezentująca licznik oparty na tablicy, która obsługuje operacje w stylu stosu.
+ * Działa na zasadzie przechowywania liczb w tablicy o stałej wielkości i umożliwia dodawanie (countIn) oraz usuwanie (countOut) liczb.
+ *
+ * Metody:
+ * - countIn(in) - dodaje liczbę do licznika (jeśli nie jest pełny),
+ * - countOut() - usuwa liczbę z licznika i zwraca ją,
+ * - peekaboo() - zwraca liczbę na szczycie licznika bez jej usuwania,
+ * - callCheck() - sprawdza, czy licznik jest pusty,
+ * - isFull() - sprawdza, czy licznik jest pełny.
+ */
+
 public class DefaultCountingOutRhymer {
 
     private static final int NUMBERS_SIZE = 12;
