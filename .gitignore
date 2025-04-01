@@ -1,0 +1,20 @@
+# Foldery generowane przez narzędzia
+bin/
+target/
+.idea/
+
+# Pliki tymczasowe i kompilacyjne Javy
+*.class
+*.jar
+*.war
+*.ear
+
+# Pliki IDE
+*.iml
+.classpath
+.project
+.settings/
+
+# Systemowe pliki tymczasowe
+.DS_Store
+Thumbs.db
